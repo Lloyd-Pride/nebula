@@ -1,0 +1,3 @@
+UPDATE EmployeeList
+SET email = CONCAT(SUBSTRING_INDEX(email, '@', 1), '@company.com')
+WHERE email NOT LIKE '%@company.com';

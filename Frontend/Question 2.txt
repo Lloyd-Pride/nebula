@@ -1,0 +1,10 @@
+<script>
+	function compareIt(num1, num2) {
+	   return num1 === num2;
+	}
+
+	compareIt(5, "5");
+</script>
+
+1. return true because the == operator in JavaScript compares the values of the two operands, regardless of their data types.
+2. The === operator compares the values and data types of the two operands. In this case, the === operator will return false, in this case the function will return false, because num1 is integer and num2 is a string.

@@ -1,0 +1,23 @@
+Question 1.
+
+<style>
+  @media only screen and (max-width: 680px){
+    body{
+          background-color: red;
+        }
+  }
+<style>
+
+Question 2:
+It Improved performance, Reduced latency and improves caching.
+
+Question 3
+The Saas file needs to be compiled into regular CSS. This can be done using a Sass compiler, such as Sass.
+The compiled CSS file can then be linked to the HTML page in the same way as any other CSS file.
+
+Question 4:
+You can use a transpiler, which is a tool that converts code written in a newer version of JavaScript into code that can be understood by older browsers.
+
+Here are some popular transpilers:
+-Babel
+-TypeScript

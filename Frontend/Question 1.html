@@ -1,0 +1,39 @@
+<div id="firstDiv" class="red-card"></div>
+<div id="secondDiv" class="red-card"></div>
+
+<style>
+    #secondDiv {
+        background: orange;
+    }
+
+    /*Question 2: Changing firstDiv and make it's colour pink* /
+    #firstDiv { 
+        background: pink;
+    }*/
+
+    div {
+        height: 150px;
+        width: 150px;
+        background: green;
+    }
+
+    .red-card {
+        background: red;
+    }
+
+    
+
+    .yellow-card {
+        background: yellow;
+    }
+</style>
+
+<script>
+    // Question 2: Changing firstDiv and make it's colour pink*
+    var firstDiv = document.getElementById("firstDiv");
+    firstDiv.style.background = "pink";
+
+    // Question 3: How would you dynamically target secondDiv and add the yellow-card class to its class list
+    var secondDiv = document.getElementById("secondDiv");
+    secondDiv.classList.add("yellow-card");
+</script>
